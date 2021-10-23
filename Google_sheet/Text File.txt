@@ -6,7 +6,7 @@ function doGet(e) {
     result = 'No Parameters';
   }
   else {
-    var sheet_id = '1ZcR04oUx5huoXFrlJQjTYzI9k2mI0ORhZwjhiHriaTc'; 		// Spreadsheet ID
+    var sheet_id = '1ZcR04xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxiaTc'; 		// Spreadsheet ID from google sheet link
     var sheet = SpreadsheetApp.openById(sheet_id).getActiveSheet();		// get Active sheet
     var newRow = sheet.getLastRow() + 1;						
     var rowData = [];
