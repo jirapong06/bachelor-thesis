@@ -11,15 +11,14 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-#define wifi_ssid "YawoottiWiFi"
-#define wifi_password "0979233370"
-//EACS_Soil
-//jirapongg
+#define wifi_ssid "xxxxxxx"
+#define wifi_password "xxxxxxxxxx"
+
 const char* mqtt_server = "broker.netpie.io";
 const int mqtt_port = 1883;
-const char* mqtt_Client = "fd69ffbd-2477-4c07-8a7d-1ecc56a2918f";
-const char* mqtt_username = "kXbusCHtk9AvkfsMqAs3AZsUGNJYANP7";
-const char* mqtt_password = "I$8ijtX3k8wUXCO1NkPd7xF#KSrwViPT";
+const char* mqtt_Client = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
+const char* mqtt_username = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const char* mqtt_password = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 int valve_on[4];
 int valve_off[4];
@@ -643,13 +642,13 @@ bool googlesheet(uint8_t id, float batt, uint8_t soil, float ds, float bme_t, ui
   switch (id)
   {
     case 1:
-      url = "https://script.google.com/macros/s/AKfycbwAVdwMCPKHna5pxSdYpC928alJpkA2bUKfVgsnTLMYf32edrqM/exec?";
+      url = "https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/exec?";
       break;
     case 2:
-      url = "https://script.google.com/macros/s/AKfycbzhULOaVX-C_w17N7euiDPeqi_Lf_CnC5peJUpJdjDGPtFDPAg/exec?";
+      url = "https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/exec?";
       break;
     case 3:
-      url = "https://script.google.com/macros/s/AKfycbwJ8TKgAKGP5tItbUQ1CQElQi6zf6L3AXnyeq_0lhBzVmLDNya1/exec?";
+      url = "https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/exec?";
       break;
     default:
       break;
